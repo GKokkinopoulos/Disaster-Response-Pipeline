@@ -11,8 +11,12 @@ The purpose of this project is to analyse over 20000 messages that were sent dur
 ## File description
 
 1. process_data.py: The python script that reads the initial disaster and category messages, merges the two datasets and prepares a final clean dataset that will be analysed by next file.
-2. 
 
+2. train_classifier.py: The python script that splits the data into train and test dataset and then applies several classification Machine Learning algorithms in order to find the most accurate one.
+
+3. run.py: The python script that reads the clean dataset from file 1 and the optimum model from file 2 and then creates 3 descriptive graphs and an app using Flask that takes a message as an input and classifies it across the 36 categories  
+
+4. Some Jupyter notebook files that were used in preparation of the Python scripts.
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
