@@ -27,12 +27,18 @@ This project is part of my Data Science Nanodegree training via Udacity. The pur
 
      2. Disaster_model.pkl: The final model created by train_classifier.py. It was stored in this folder
 
+ - Folder app:
+      1. run.py: The python script that reads the clean dataset and the optimum model (Disaster_model.pkl above) and then 
+         creates 3 descriptive graphs and an app using Flask that takes a message as an input and classifies it across the 
+         36 categories
+      2. Folder templates:
+           1. master.html : The html code that creates the three graphs in the app
+           2. go.html: The html code that accepts a message as an input in the app and classifies it across the 36 
+              categories 
+   
 
- . 
-
-3. run.py: The python script that reads the clean dataset from file 1 and the optimum model from file 2 and then creates 3 descriptive graphs and an app using Flask that takes a message as an input and classifies it across the 36 categories  
-
-4. Some Jupyter notebook files that were used in preparation of the Python scripts.
+ 
+ - Some Jupyter notebook files that were used in preparation of the Python scripts.
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
