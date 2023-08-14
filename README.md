@@ -6,10 +6,10 @@ The code uses Python scripts. There are also some Jupyter notebook files which w
 
 ## Motivation
 
-The purpose of this project is to analyse over 20000 messages that were sent during natural disasters either via social media or directly to natural disaster response organisation and allocate them to 36 different categories (e.g. aid related, request, medical help e.t.c.).  
+This project is part of my Data Science Nanodegree training via Udacity. The purpose of this project is to analyse over 20000 messages that were sent during natural disasters either via social media or directly to natural disaster response organisation and allocate them to 36 different categories (e.g. aid related, request, medical help e.t.c.).  
 
 ## File description
-
+    - Folder data: 
 1. process_data.py: The python script that reads the initial disaster and category messages, merges the two datasets and prepares a final clean dataset that will be analysed by next file.
 
 2. train_classifier.py: The python script that splits the data into train and test dataset and then applies several classification Machine Learning algorithms in order to find the most accurate one.
