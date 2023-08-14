@@ -32,24 +32,29 @@ This project is part of my Data Science Nanodegree training via Udacity. The pur
          creates 3 descriptive graphs and an app using Flask that takes a message as an input and classifies it across the 
          36 categories
       2. Folder templates:
-           1. master.html : The html code that creates the three graphs in the app
-           2. go.html: The html code that accepts a message as an input in the app and classifies it across the 36 
-              categories 
-   
-
+           1. master.html : The html code provided by Udacity that creates the three graphs in the app
+           2. go.html: The html code provided by Udacity that accepts a message as an input in the app and classifies it 
+              across the 36 categories 
  
  - Some Jupyter notebook files that were used in preparation of the Python scripts.
 
+
+### Licensing, Authors, Acknowledgements
+Files disaster_categories.csv and disaster_messages.csv where provided by Udacity (https://www.udacity.com/) for the purposes of Data Science Nanodegree training. Udacity also provided the code for master.html and go.html and a template for the three python files (run.py,process_data.py,train_classifier.py) as well the Jupyter Notebooks.   
+
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+1. Copy the files from the three folders (app,data,models) in same named folders in a python workspace (project's root 
+   directory)                       
+                  
+2. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Go to `app` directory: `cd app`
+3. Go to `app` directory: `cd app`
 
-3. Run your web app: `python run.py`
+4. Run the web app: `python run.py`
 
-4. Click the `PREVIEW` button to open the homepage
+5. Click the `PREVIEW` button to open the homepage
